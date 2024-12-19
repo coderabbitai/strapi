@@ -907,6 +907,12 @@ export interface ApiAboutUsAboutUs extends Schema.SingleType {
           localized: true;
         };
       }>;
+    Hero: Attribute.Component<'layout.hero'> &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

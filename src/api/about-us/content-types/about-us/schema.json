@@ -20,43 +20,85 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.seo",
-      "pluginOptions": { "i18n": { "localized": true } }
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "Contact": {
       "type": "component",
       "repeatable": false,
       "component": "layout.contact-us-section",
-      "pluginOptions": { "i18n": { "localized": true } }
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "JoinUs": {
       "type": "component",
       "repeatable": false,
       "component": "layout.join-us-section",
-      "pluginOptions": { "i18n": { "localized": true } }
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "Team": {
       "type": "component",
       "repeatable": false,
       "component": "layout.members-section",
-      "pluginOptions": { "i18n": { "localized": true } }
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "Advisors": {
       "type": "component",
       "repeatable": false,
       "component": "layout.members-section",
-      "pluginOptions": { "i18n": { "localized": true } }
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "Intro1": {
       "type": "text",
-      "pluginOptions": { "i18n": { "localized": true } }
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "Intro2": {
       "type": "text",
-      "pluginOptions": { "i18n": { "localized": true } }
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "Intro3": {
       "type": "text",
-      "pluginOptions": { "i18n": { "localized": true } }
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "layout.hero"
     }
   }
 }
